@@ -1,0 +1,2 @@
+ADD_EXECUTABLE(qtest test.cc)
+DEAL_II_SETUP_TARGET(qtest)
