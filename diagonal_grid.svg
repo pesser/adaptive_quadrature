@@ -1,0 +1,413 @@
+<svg width="1400" height="1000" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+
+<!-- internal style sheet -->
+<style type="text/css"><![CDATA[
+ rect.background{fill:white}
+ rect{fill:none; stroke:rgb(25,25,25); stroke-width:2}
+ text{font-family:Helvetica; text-anchor:middle; fill:rgb(25,25,25)}
+ line{stroke:rgb(25,25,25); stroke-width:4}
+ path{fill:none; stroke:rgb(25,25,25); stroke-width:2}
+
+ path.p0{fill:rgb(0,102,255); stroke:rgb(25,25,25); stroke-width:2}
+ path.ps0{fill:rgb(0,77,191); stroke:rgb(20,20,20); stroke-width:2}
+ rect.r0{fill:rgb(0,102,255); stroke:rgb(25,25,25); stroke-width:2}
+ path.p1{fill:rgb(0,255,224); stroke:rgb(25,25,25); stroke-width:2}
+ path.ps1{fill:rgb(0,191,168); stroke:rgb(20,20,20); stroke-width:2}
+ rect.r1{fill:rgb(0,255,224); stroke:rgb(25,25,25); stroke-width:2}
+ path.p2{fill:rgb(0,255,41); stroke:rgb(25,25,25); stroke-width:2}
+ path.ps2{fill:rgb(0,191,31); stroke:rgb(20,20,20); stroke-width:2}
+ rect.r2{fill:rgb(0,255,41); stroke:rgb(25,25,25); stroke-width:2}
+ path.p3{fill:rgb(143,255,0); stroke:rgb(25,25,25); stroke-width:2}
+ path.ps3{fill:rgb(107,191,0); stroke:rgb(20,20,20); stroke-width:2}
+ rect.r3{fill:rgb(143,255,0); stroke:rgb(25,25,25); stroke-width:2}
+ path.p4{fill:rgb(255,184,0); stroke:rgb(25,25,25); stroke-width:2}
+ path.ps4{fill:rgb(191,138,0); stroke:rgb(20,20,20); stroke-width:2}
+ rect.r4{fill:rgb(255,184,0); stroke:rgb(25,25,25); stroke-width:2}
+ path.p5{fill:rgb(255,0,0); stroke:rgb(25,25,25); stroke-width:2}
+ path.ps5{fill:rgb(191,0,0); stroke:rgb(20,20,20); stroke-width:2}
+ rect.r5{fill:rgb(255,0,0); stroke:rgb(25,25,25); stroke-width:2}
+]]></style>
+
+ <rect class="background" width="1000" height="1000"/>
+  <!-- cells -->
+  <path class="p2" d="M 80 920 L 290 920 L 290 710 L 80 710 L 80 920"/>
+  <text x="185" y="840" style="font-size:49px">2,8</text>
+  <line x1="80" y1="920" x2="80" y2="710"/>
+  <line x1="80" y1="920" x2="290" y2="920"/>
+  <path class="p2" d="M 290 920 L 500 920 L 500 710 L 290 710 L 290 920"/>
+  <text x="395" y="841" style="font-size:51px">2,9</text>
+  <line x1="290" y1="920" x2="500" y2="920"/>
+  <path class="p2" d="M 80 710 L 290 710 L 290 500 L 80 500 L 80 710"/>
+  <text x="185" y="631" style="font-size:51px">2,10</text>
+  <line x1="80" y1="710" x2="80" y2="500"/>
+  <path class="p2" d="M 710 500 L 920 500 L 920 290 L 710 290 L 710 500"/>
+  <text x="815" y="421" style="font-size:51px">2,13</text>
+  <line x1="920" y1="500" x2="920" y2="290"/>
+  <path class="p2" d="M 500 290 L 710 290 L 710 80 L 500 80 L 500 290"/>
+  <text x="605" y="211" style="font-size:51px">2,14</text>
+  <line x1="500" y1="80" x2="710" y2="80"/>
+  <path class="p2" d="M 710 290 L 920 290 L 920 80 L 710 80 L 710 290"/>
+  <text x="815" y="210" style="font-size:49px">2,15</text>
+  <line x1="920" y1="290" x2="920" y2="80"/>
+  <line x1="710" y1="80" x2="920" y2="80"/>
+  <path class="p3" d="M 500 920 L 605 920 L 605 815 L 500 815 L 500 920"/>
+  <text x="553" y="880" style="font-size:25px">3,16</text>
+  <line x1="500" y1="920" x2="605" y2="920"/>
+  <path class="p3" d="M 605 920 L 710 920 L 710 815 L 605 815 L 605 920"/>
+  <text x="658" y="880" style="font-size:25px">3,17</text>
+  <line x1="605" y1="920" x2="710" y2="920"/>
+  <path class="p3" d="M 500 815 L 605 815 L 605 710 L 500 710 L 500 815"/>
+  <text x="553" y="776" style="font-size:26px">3,18</text>
+  <path class="p3" d="M 815 710 L 920 710 L 920 605 L 815 605 L 815 710"/>
+  <text x="868" y="670" style="font-size:25px">3,21</text>
+  <line x1="920" y1="710" x2="920" y2="605"/>
+  <path class="p3" d="M 710 605 L 815 605 L 815 500 L 710 500 L 710 605"/>
+  <text x="763" y="566" style="font-size:26px">3,22</text>
+  <path class="p3" d="M 815 605 L 920 605 L 920 500 L 815 500 L 815 605"/>
+  <text x="868" y="565" style="font-size:25px">3,23</text>
+  <line x1="920" y1="605" x2="920" y2="500"/>
+  <path class="p3" d="M 80 500 L 185 500 L 185 395 L 80 395 L 80 500"/>
+  <text x="133" y="460" style="font-size:25px">3,24</text>
+  <line x1="80" y1="500" x2="80" y2="395"/>
+  <path class="p3" d="M 185 500 L 290 500 L 290 395 L 185 395 L 185 500"/>
+  <text x="238" y="461" style="font-size:26px">3,25</text>
+  <path class="p3" d="M 80 395 L 185 395 L 185 290 L 80 290 L 80 395"/>
+  <text x="133" y="355" style="font-size:25px">3,26</text>
+  <line x1="80" y1="395" x2="80" y2="290"/>
+  <path class="p3" d="M 395 290 L 500 290 L 500 185 L 395 185 L 395 290"/>
+  <text x="448" y="251" style="font-size:26px">3,29</text>
+  <path class="p3" d="M 290 185 L 395 185 L 395 80 L 290 80 L 290 185"/>
+  <text x="343" y="145" style="font-size:25px">3,30</text>
+  <line x1="290" y1="80" x2="395" y2="80"/>
+  <path class="p3" d="M 395 185 L 500 185 L 500 80 L 395 80 L 395 185"/>
+  <text x="448" y="145" style="font-size:25px">3,31</text>
+  <line x1="395" y1="80" x2="500" y2="80"/>
+  <path class="p3" d="M 290 710 L 395 710 L 395 605 L 290 605 L 290 710"/>
+  <text x="343" y="671" style="font-size:26px">3,32</text>
+  <path class="p3" d="M 395 710 L 500 710 L 500 605 L 395 605 L 395 710"/>
+  <text x="448" y="671" style="font-size:26px">3,33</text>
+  <path class="p3" d="M 290 605 L 395 605 L 395 500 L 290 500 L 290 605"/>
+  <text x="343" y="566" style="font-size:26px">3,34</text>
+  <path class="p3" d="M 605 500 L 710 500 L 710 395 L 605 395 L 605 500"/>
+  <text x="658" y="461" style="font-size:26px">3,37</text>
+  <path class="p3" d="M 500 395 L 605 395 L 605 290 L 500 290 L 500 395"/>
+  <text x="553" y="356" style="font-size:26px">3,38</text>
+  <path class="p3" d="M 605 395 L 710 395 L 710 290 L 605 290 L 605 395"/>
+  <text x="658" y="356" style="font-size:26px">3,39</text>
+  <path class="p4" d="M 815 920 L 868 920 L 868 868 L 815 868 L 815 920"/>
+  <text x="841" y="900" style="font-size:12px">4,0</text>
+  <line x1="815" y1="920" x2="868" y2="920"/>
+  <path class="p4" d="M 868 868 L 920 868 L 920 815 L 868 815 L 868 868"/>
+  <text x="894" y="847" style="font-size:12px">4,3</text>
+  <line x1="920" y1="868" x2="920" y2="815"/>
+  <path class="p4" d="M 710 815 L 763 815 L 763 763 L 710 763 L 710 815"/>
+  <text x="736" y="795" style="font-size:12px">4,4</text>
+  <path class="p4" d="M 763 763 L 815 763 L 815 710 L 763 710 L 763 763"/>
+  <text x="789" y="742" style="font-size:12px">4,7</text>
+  <path class="p4" d="M 605 710 L 658 710 L 658 658 L 605 658 L 605 710"/>
+  <text x="631" y="690" style="font-size:13px">4,8</text>
+  <path class="p4" d="M 658 658 L 710 658 L 710 605 L 658 605 L 658 658"/>
+  <text x="684" y="638" style="font-size:13px">4,11</text>
+  <path class="p4" d="M 500 605 L 553 605 L 553 553 L 500 553 L 500 605"/>
+  <text x="526" y="585" style="font-size:13px">4,12</text>
+  <path class="p4" d="M 553 553 L 605 553 L 605 500 L 553 500 L 553 553"/>
+  <text x="579" y="533" style="font-size:13px">4,15</text>
+  <path class="p4" d="M 395 500 L 448 500 L 448 448 L 395 448 L 395 500"/>
+  <text x="421" y="480" style="font-size:13px">4,16</text>
+  <path class="p4" d="M 448 448 L 500 448 L 500 395 L 448 395 L 448 448"/>
+  <text x="474" y="428" style="font-size:13px">4,19</text>
+  <path class="p4" d="M 290 395 L 343 395 L 343 343 L 290 343 L 290 395"/>
+  <text x="316" y="375" style="font-size:13px">4,20</text>
+  <path class="p4" d="M 343 343 L 395 343 L 395 290 L 343 290 L 343 343"/>
+  <text x="369" y="323" style="font-size:13px">4,23</text>
+  <path class="p4" d="M 185 290 L 238 290 L 238 238 L 185 238 L 185 290"/>
+  <text x="211" y="270" style="font-size:12px">4,24</text>
+  <path class="p4" d="M 238 238 L 290 238 L 290 185 L 238 185 L 238 238"/>
+  <text x="264" y="217" style="font-size:12px">4,27</text>
+  <path class="p4" d="M 80 185 L 133 185 L 133 133 L 80 133 L 80 185"/>
+  <text x="106" y="165" style="font-size:12px">4,28</text>
+  <line x1="80" y1="185" x2="80" y2="133"/>
+  <path class="p4" d="M 133 133 L 185 133 L 185 80 L 133 80 L 133 133"/>
+  <text x="159" y="112" style="font-size:12px">4,31</text>
+  <line x1="133" y1="80" x2="185" y2="80"/>
+  <path class="p4" d="M 710 920 L 763 920 L 763 868 L 710 868 L 710 920"/>
+  <text x="736" y="900" style="font-size:12px">4,32</text>
+  <line x1="710" y1="920" x2="763" y2="920"/>
+  <path class="p4" d="M 763 920 L 815 920 L 815 868 L 763 868 L 763 920"/>
+  <text x="789" y="900" style="font-size:12px">4,33</text>
+  <line x1="763" y1="920" x2="815" y2="920"/>
+  <path class="p4" d="M 710 868 L 763 868 L 763 815 L 710 815 L 710 868"/>
+  <text x="736" y="847" style="font-size:12px">4,34</text>
+  <path class="p4" d="M 763 868 L 815 868 L 815 815 L 763 815 L 763 868"/>
+  <text x="789" y="847" style="font-size:12px">4,35</text>
+  <path class="p4" d="M 815 815 L 868 815 L 868 763 L 815 763 L 815 815"/>
+  <text x="841" y="795" style="font-size:12px">4,36</text>
+  <path class="p4" d="M 868 815 L 920 815 L 920 763 L 868 763 L 868 815"/>
+  <text x="894" y="795" style="font-size:12px">4,37</text>
+  <line x1="920" y1="815" x2="920" y2="763"/>
+  <path class="p4" d="M 815 763 L 868 763 L 868 710 L 815 710 L 815 763"/>
+  <text x="841" y="742" style="font-size:12px">4,38</text>
+  <path class="p4" d="M 868 763 L 920 763 L 920 710 L 868 710 L 868 763"/>
+  <text x="894" y="742" style="font-size:12px">4,39</text>
+  <line x1="920" y1="763" x2="920" y2="710"/>
+  <path class="p4" d="M 500 710 L 553 710 L 553 658 L 500 658 L 500 710"/>
+  <text x="526" y="690" style="font-size:13px">4,40</text>
+  <path class="p4" d="M 553 710 L 605 710 L 605 658 L 553 658 L 553 710"/>
+  <text x="579" y="690" style="font-size:13px">4,41</text>
+  <path class="p4" d="M 500 658 L 553 658 L 553 605 L 500 605 L 500 658"/>
+  <text x="526" y="638" style="font-size:13px">4,42</text>
+  <path class="p4" d="M 553 658 L 605 658 L 605 605 L 553 605 L 553 658"/>
+  <text x="579" y="638" style="font-size:13px">4,43</text>
+  <path class="p4" d="M 605 605 L 658 605 L 658 553 L 605 553 L 605 605"/>
+  <text x="631" y="585" style="font-size:13px">4,44</text>
+  <path class="p4" d="M 658 605 L 710 605 L 710 553 L 658 553 L 658 605"/>
+  <text x="684" y="585" style="font-size:13px">4,45</text>
+  <path class="p4" d="M 605 553 L 658 553 L 658 500 L 605 500 L 605 553"/>
+  <text x="631" y="533" style="font-size:13px">4,46</text>
+  <path class="p4" d="M 658 553 L 710 553 L 710 500 L 658 500 L 658 553"/>
+  <text x="684" y="533" style="font-size:13px">4,47</text>
+  <path class="p4" d="M 290 500 L 343 500 L 343 448 L 290 448 L 290 500"/>
+  <text x="316" y="480" style="font-size:13px">4,48</text>
+  <path class="p4" d="M 343 500 L 395 500 L 395 448 L 343 448 L 343 500"/>
+  <text x="369" y="480" style="font-size:13px">4,49</text>
+  <path class="p4" d="M 290 448 L 343 448 L 343 395 L 290 395 L 290 448"/>
+  <text x="316" y="428" style="font-size:13px">4,50</text>
+  <path class="p4" d="M 343 448 L 395 448 L 395 395 L 343 395 L 343 448"/>
+  <text x="369" y="428" style="font-size:13px">4,51</text>
+  <path class="p4" d="M 395 395 L 448 395 L 448 343 L 395 343 L 395 395"/>
+  <text x="421" y="375" style="font-size:13px">4,52</text>
+  <path class="p4" d="M 448 395 L 500 395 L 500 343 L 448 343 L 448 395"/>
+  <text x="474" y="375" style="font-size:13px">4,53</text>
+  <path class="p4" d="M 395 343 L 448 343 L 448 290 L 395 290 L 395 343"/>
+  <text x="421" y="323" style="font-size:13px">4,54</text>
+  <path class="p4" d="M 448 343 L 500 343 L 500 290 L 448 290 L 448 343"/>
+  <text x="474" y="323" style="font-size:13px">4,55</text>
+  <path class="p4" d="M 80 290 L 133 290 L 133 238 L 80 238 L 80 290"/>
+  <text x="106" y="270" style="font-size:12px">4,56</text>
+  <line x1="80" y1="290" x2="80" y2="238"/>
+  <path class="p4" d="M 133 290 L 185 290 L 185 238 L 133 238 L 133 290"/>
+  <text x="159" y="270" style="font-size:12px">4,57</text>
+  <path class="p4" d="M 80 238 L 133 238 L 133 185 L 80 185 L 80 238"/>
+  <text x="106" y="217" style="font-size:12px">4,58</text>
+  <line x1="80" y1="238" x2="80" y2="185"/>
+  <path class="p4" d="M 133 238 L 185 238 L 185 185 L 133 185 L 133 238"/>
+  <text x="159" y="217" style="font-size:12px">4,59</text>
+  <path class="p4" d="M 185 185 L 238 185 L 238 133 L 185 133 L 185 185"/>
+  <text x="211" y="165" style="font-size:12px">4,60</text>
+  <path class="p4" d="M 238 185 L 290 185 L 290 133 L 238 133 L 238 185"/>
+  <text x="264" y="165" style="font-size:12px">4,61</text>
+  <path class="p4" d="M 185 133 L 238 133 L 238 80 L 185 80 L 185 133"/>
+  <text x="211" y="112" style="font-size:12px">4,62</text>
+  <line x1="185" y1="80" x2="238" y2="80"/>
+  <path class="p4" d="M 238 133 L 290 133 L 290 80 L 238 80 L 238 133"/>
+  <text x="264" y="112" style="font-size:12px">4,63</text>
+  <line x1="238" y1="80" x2="290" y2="80"/>
+  <path class="p4" d="M 605 815 L 658 815 L 658 763 L 605 763 L 605 815"/>
+  <text x="631" y="795" style="font-size:13px">4,64</text>
+  <path class="p4" d="M 658 815 L 710 815 L 710 763 L 658 763 L 658 815"/>
+  <text x="684" y="795" style="font-size:13px">4,65</text>
+  <path class="p4" d="M 605 763 L 658 763 L 658 710 L 605 710 L 605 763"/>
+  <text x="631" y="743" style="font-size:13px">4,66</text>
+  <path class="p4" d="M 658 763 L 710 763 L 710 710 L 658 710 L 658 763"/>
+  <text x="684" y="743" style="font-size:13px">4,67</text>
+  <path class="p4" d="M 710 710 L 763 710 L 763 658 L 710 658 L 710 710"/>
+  <text x="736" y="690" style="font-size:13px">4,68</text>
+  <path class="p4" d="M 763 710 L 815 710 L 815 658 L 763 658 L 763 710"/>
+  <text x="789" y="690" style="font-size:13px">4,69</text>
+  <path class="p4" d="M 710 658 L 763 658 L 763 605 L 710 605 L 710 658"/>
+  <text x="736" y="638" style="font-size:13px">4,70</text>
+  <path class="p4" d="M 763 658 L 815 658 L 815 605 L 763 605 L 763 658"/>
+  <text x="789" y="638" style="font-size:13px">4,71</text>
+  <path class="p4" d="M 185 395 L 238 395 L 238 343 L 185 343 L 185 395"/>
+  <text x="211" y="375" style="font-size:13px">4,72</text>
+  <path class="p4" d="M 238 395 L 290 395 L 290 343 L 238 343 L 238 395"/>
+  <text x="264" y="375" style="font-size:13px">4,73</text>
+  <path class="p4" d="M 185 343 L 238 343 L 238 290 L 185 290 L 185 343"/>
+  <text x="211" y="323" style="font-size:13px">4,74</text>
+  <path class="p4" d="M 238 343 L 290 343 L 290 290 L 238 290 L 238 343"/>
+  <text x="264" y="323" style="font-size:13px">4,75</text>
+  <path class="p4" d="M 290 290 L 343 290 L 343 238 L 290 238 L 290 290"/>
+  <text x="316" y="270" style="font-size:13px">4,76</text>
+  <path class="p4" d="M 343 290 L 395 290 L 395 238 L 343 238 L 343 290"/>
+  <text x="369" y="270" style="font-size:13px">4,77</text>
+  <path class="p4" d="M 290 238 L 343 238 L 343 185 L 290 185 L 290 238"/>
+  <text x="316" y="218" style="font-size:13px">4,78</text>
+  <path class="p4" d="M 343 238 L 395 238 L 395 185 L 343 185 L 343 238"/>
+  <text x="369" y="218" style="font-size:13px">4,79</text>
+  <path class="p4" d="M 395 605 L 448 605 L 448 553 L 395 553 L 395 605"/>
+  <text x="421" y="585" style="font-size:13px">4,80</text>
+  <path class="p4" d="M 448 605 L 500 605 L 500 553 L 448 553 L 448 605"/>
+  <text x="474" y="585" style="font-size:13px">4,81</text>
+  <path class="p4" d="M 395 553 L 448 553 L 448 500 L 395 500 L 395 553"/>
+  <text x="421" y="533" style="font-size:13px">4,82</text>
+  <path class="p4" d="M 448 553 L 500 553 L 500 500 L 448 500 L 448 553"/>
+  <text x="474" y="533" style="font-size:13px">4,83</text>
+  <path class="p4" d="M 500 500 L 553 500 L 553 448 L 500 448 L 500 500"/>
+  <text x="526" y="480" style="font-size:13px">4,84</text>
+  <path class="p4" d="M 553 500 L 605 500 L 605 448 L 553 448 L 553 500"/>
+  <text x="579" y="480" style="font-size:13px">4,85</text>
+  <path class="p4" d="M 500 448 L 553 448 L 553 395 L 500 395 L 500 448"/>
+  <text x="526" y="428" style="font-size:13px">4,86</text>
+  <path class="p4" d="M 553 448 L 605 448 L 605 395 L 553 395 L 553 448"/>
+  <text x="579" y="428" style="font-size:13px">4,87</text>
+  <path class="p5" d="M 868 920 L 894 920 L 894 894 L 868 894 L 868 920"/>
+  <text x="881" y="910" style="font-size:6px">5,0</text>
+  <line x1="868" y1="920" x2="894" y2="920"/>
+  <path class="p5" d="M 894 920 L 920 920 L 920 894 L 894 894 L 894 920"/>
+  <text x="907" y="910" style="font-size:6px">5,1</text>
+  <line x1="920" y1="920" x2="920" y2="894"/>
+  <line x1="894" y1="920" x2="920" y2="920"/>
+  <path class="p5" d="M 868 894 L 894 894 L 894 868 L 868 868 L 868 894"/>
+  <text x="881" y="884" style="font-size:6px">5,2</text>
+  <path class="p5" d="M 894 894 L 920 894 L 920 868 L 894 868 L 894 894"/>
+  <text x="907" y="884" style="font-size:6px">5,3</text>
+  <line x1="920" y1="894" x2="920" y2="868"/>
+  <path class="p5" d="M 815 868 L 841 868 L 841 841 L 815 841 L 815 868"/>
+  <text x="828" y="857" style="font-size:6px">5,4</text>
+  <path class="p5" d="M 841 868 L 868 868 L 868 841 L 841 841 L 841 868"/>
+  <text x="854" y="857" style="font-size:6px">5,5</text>
+  <path class="p5" d="M 815 841 L 841 841 L 841 815 L 815 815 L 815 841"/>
+  <text x="828" y="831" style="font-size:6px">5,6</text>
+  <path class="p5" d="M 841 841 L 868 841 L 868 815 L 841 815 L 841 841"/>
+  <text x="854" y="831" style="font-size:6px">5,7</text>
+  <path class="p5" d="M 763 815 L 789 815 L 789 789 L 763 789 L 763 815"/>
+  <text x="776" y="805" style="font-size:6px">5,8</text>
+  <path class="p5" d="M 789 815 L 815 815 L 815 789 L 789 789 L 789 815"/>
+  <text x="802" y="805" style="font-size:6px">5,9</text>
+  <path class="p5" d="M 763 789 L 789 789 L 789 763 L 763 763 L 763 789"/>
+  <text x="776" y="779" style="font-size:6px">5,10</text>
+  <path class="p5" d="M 789 789 L 815 789 L 815 763 L 789 763 L 789 789"/>
+  <text x="802" y="779" style="font-size:6px">5,11</text>
+  <path class="p5" d="M 710 763 L 736 763 L 736 736 L 710 736 L 710 763"/>
+  <text x="723" y="752" style="font-size:6px">5,12</text>
+  <path class="p5" d="M 736 763 L 763 763 L 763 736 L 736 736 L 736 763"/>
+  <text x="749" y="752" style="font-size:6px">5,13</text>
+  <path class="p5" d="M 710 736 L 736 736 L 736 710 L 710 710 L 710 736"/>
+  <text x="723" y="726" style="font-size:6px">5,14</text>
+  <path class="p5" d="M 736 736 L 763 736 L 763 710 L 736 710 L 736 736"/>
+  <text x="749" y="726" style="font-size:6px">5,15</text>
+  <path class="p5" d="M 658 710 L 684 710 L 684 684 L 658 684 L 658 710"/>
+  <text x="671" y="700" style="font-size:6px">5,16</text>
+  <path class="p5" d="M 684 710 L 710 710 L 710 684 L 684 684 L 684 710"/>
+  <text x="697" y="700" style="font-size:6px">5,17</text>
+  <path class="p5" d="M 658 684 L 684 684 L 684 658 L 658 658 L 658 684"/>
+  <text x="671" y="674" style="font-size:6px">5,18</text>
+  <path class="p5" d="M 684 684 L 710 684 L 710 658 L 684 658 L 684 684"/>
+  <text x="697" y="674" style="font-size:6px">5,19</text>
+  <path class="p5" d="M 605 658 L 631 658 L 631 631 L 605 631 L 605 658"/>
+  <text x="618" y="648" style="font-size:7px">5,20</text>
+  <path class="p5" d="M 631 658 L 658 658 L 658 631 L 631 631 L 631 658"/>
+  <text x="644" y="648" style="font-size:7px">5,21</text>
+  <path class="p5" d="M 605 631 L 631 631 L 631 605 L 605 605 L 605 631"/>
+  <text x="618" y="622" style="font-size:7px">5,22</text>
+  <path class="p5" d="M 631 631 L 658 631 L 658 605 L 631 605 L 631 631"/>
+  <text x="644" y="622" style="font-size:7px">5,23</text>
+  <path class="p5" d="M 553 605 L 579 605 L 579 579 L 553 579 L 553 605"/>
+  <text x="566" y="595" style="font-size:7px">5,24</text>
+  <path class="p5" d="M 579 605 L 605 605 L 605 579 L 579 579 L 579 605"/>
+  <text x="592" y="595" style="font-size:7px">5,25</text>
+  <path class="p5" d="M 553 579 L 579 579 L 579 553 L 553 553 L 553 579"/>
+  <text x="566" y="569" style="font-size:7px">5,26</text>
+  <path class="p5" d="M 579 579 L 605 579 L 605 553 L 579 553 L 579 579"/>
+  <text x="592" y="569" style="font-size:7px">5,27</text>
+  <path class="p5" d="M 500 553 L 526 553 L 526 526 L 500 526 L 500 553"/>
+  <text x="513" y="543" style="font-size:7px">5,28</text>
+  <path class="p5" d="M 526 553 L 553 553 L 553 526 L 526 526 L 526 553"/>
+  <text x="539" y="543" style="font-size:7px">5,29</text>
+  <path class="p5" d="M 500 526 L 526 526 L 526 500 L 500 500 L 500 526"/>
+  <text x="513" y="517" style="font-size:7px">5,30</text>
+  <path class="p5" d="M 526 526 L 553 526 L 553 500 L 526 500 L 526 526"/>
+  <text x="539" y="517" style="font-size:7px">5,31</text>
+  <path class="p5" d="M 448 500 L 474 500 L 474 474 L 448 474 L 448 500"/>
+  <text x="461" y="490" style="font-size:7px">5,32</text>
+  <path class="p5" d="M 474 500 L 500 500 L 500 474 L 474 474 L 474 500"/>
+  <text x="487" y="490" style="font-size:7px">5,33</text>
+  <path class="p5" d="M 448 474 L 474 474 L 474 448 L 448 448 L 448 474"/>
+  <text x="461" y="464" style="font-size:7px">5,34</text>
+  <path class="p5" d="M 474 474 L 500 474 L 500 448 L 474 448 L 474 474"/>
+  <text x="487" y="464" style="font-size:7px">5,35</text>
+  <path class="p5" d="M 395 448 L 421 448 L 421 421 L 395 421 L 395 448"/>
+  <text x="408" y="438" style="font-size:7px">5,36</text>
+  <path class="p5" d="M 421 448 L 448 448 L 448 421 L 421 421 L 421 448"/>
+  <text x="434" y="438" style="font-size:7px">5,37</text>
+  <path class="p5" d="M 395 421 L 421 421 L 421 395 L 395 395 L 395 421"/>
+  <text x="408" y="412" style="font-size:7px">5,38</text>
+  <path class="p5" d="M 421 421 L 448 421 L 448 395 L 421 395 L 421 421"/>
+  <text x="434" y="412" style="font-size:7px">5,39</text>
+  <path class="p5" d="M 343 395 L 369 395 L 369 369 L 343 369 L 343 395"/>
+  <text x="356" y="385" style="font-size:7px">5,40</text>
+  <path class="p5" d="M 369 395 L 395 395 L 395 369 L 369 369 L 369 395"/>
+  <text x="382" y="385" style="font-size:7px">5,41</text>
+  <path class="p5" d="M 343 369 L 369 369 L 369 343 L 343 343 L 343 369"/>
+  <text x="356" y="359" style="font-size:7px">5,42</text>
+  <path class="p5" d="M 369 369 L 395 369 L 395 343 L 369 343 L 369 369"/>
+  <text x="382" y="359" style="font-size:7px">5,43</text>
+  <path class="p5" d="M 290 343 L 316 343 L 316 316 L 290 316 L 290 343"/>
+  <text x="303" y="332" style="font-size:6px">5,44</text>
+  <path class="p5" d="M 316 343 L 343 343 L 343 316 L 316 316 L 316 343"/>
+  <text x="329" y="332" style="font-size:6px">5,45</text>
+  <path class="p5" d="M 290 316 L 316 316 L 316 290 L 290 290 L 290 316"/>
+  <text x="303" y="306" style="font-size:6px">5,46</text>
+  <path class="p5" d="M 316 316 L 343 316 L 343 290 L 316 290 L 316 316"/>
+  <text x="329" y="306" style="font-size:6px">5,47</text>
+  <path class="p5" d="M 238 290 L 264 290 L 264 264 L 238 264 L 238 290"/>
+  <text x="251" y="280" style="font-size:6px">5,48</text>
+  <path class="p5" d="M 264 290 L 290 290 L 290 264 L 264 264 L 264 290"/>
+  <text x="277" y="280" style="font-size:6px">5,49</text>
+  <path class="p5" d="M 238 264 L 264 264 L 264 238 L 238 238 L 238 264"/>
+  <text x="251" y="254" style="font-size:6px">5,50</text>
+  <path class="p5" d="M 264 264 L 290 264 L 290 238 L 264 238 L 264 264"/>
+  <text x="277" y="254" style="font-size:6px">5,51</text>
+  <path class="p5" d="M 185 238 L 211 238 L 211 211 L 185 211 L 185 238"/>
+  <text x="198" y="227" style="font-size:6px">5,52</text>
+  <path class="p5" d="M 211 238 L 238 238 L 238 211 L 211 211 L 211 238"/>
+  <text x="224" y="227" style="font-size:6px">5,53</text>
+  <path class="p5" d="M 185 211 L 211 211 L 211 185 L 185 185 L 185 211"/>
+  <text x="198" y="201" style="font-size:6px">5,54</text>
+  <path class="p5" d="M 211 211 L 238 211 L 238 185 L 211 185 L 211 211"/>
+  <text x="224" y="201" style="font-size:6px">5,55</text>
+  <path class="p5" d="M 133 185 L 159 185 L 159 159 L 133 159 L 133 185"/>
+  <text x="146" y="175" style="font-size:6px">5,56</text>
+  <path class="p5" d="M 159 185 L 185 185 L 185 159 L 159 159 L 159 185"/>
+  <text x="172" y="175" style="font-size:6px">5,57</text>
+  <path class="p5" d="M 133 159 L 159 159 L 159 133 L 133 133 L 133 159"/>
+  <text x="146" y="149" style="font-size:6px">5,58</text>
+  <path class="p5" d="M 159 159 L 185 159 L 185 133 L 159 133 L 159 159"/>
+  <text x="172" y="149" style="font-size:6px">5,59</text>
+  <path class="p5" d="M 80 133 L 106 133 L 106 106 L 80 106 L 80 133"/>
+  <text x="93" y="122" style="font-size:6px">5,60</text>
+  <line x1="80" y1="133" x2="80" y2="106"/>
+  <path class="p5" d="M 106 133 L 133 133 L 133 106 L 106 106 L 106 133"/>
+  <text x="119" y="122" style="font-size:6px">5,61</text>
+  <path class="p5" d="M 80 106 L 106 106 L 106 80 L 80 80 L 80 106"/>
+  <text x="93" y="96" style="font-size:6px">5,62</text>
+  <line x1="80" y1="106" x2="80" y2="80"/>
+  <line x1="80" y1="80" x2="106" y2="80"/>
+  <path class="p5" d="M 106 106 L 133 106 L 133 80 L 106 80 L 106 106"/>
+  <text x="119" y="96" style="font-size:6px">5,63</text>
+  <line x1="106" y1="80" x2="133" y2="80"/>
+
+ <!-- legend -->
+ <rect x="1000" y="80" width="320" height="165"/>
+ <text x="1013" y="107" style="text-anchor:start; font-weight:bold; font-size:18px">cell label</text>
+  <text x="1020" y="134" style="text-anchor:start; font-style:oblique; font-size:18px">level_number,</text>
+  <text x="1020" y="161" style="text-anchor:start; font-style:oblique; font-size:18px">cell_index</text>
+  <text x="1000" y="274" style="text-anchor:start; font-size:18px">azimuth: 0°, polar: 0°</text>
+
+ <!-- colorbar -->
+ <text x="1000" y="356" style="text-anchor:start; font-weight:bold; font-size:18px">level_number</text>
+  <rect class="r0" x="1000" y="825" width="25" height="91"/>
+  <text x="1037.5" y="876.5" style="text-anchor:start; font-size:18px; font-weight:bold">0 min</text>
+  <rect class="r1" x="1000" y="734" width="25" height="91"/>
+  <text x="1037.5" y="785.5" style="text-anchor:start; font-size:18px">1</text>
+  <rect class="r2" x="1000" y="643" width="25" height="91"/>
+  <text x="1037.5" y="694.5" style="text-anchor:start; font-size:18px">2</text>
+  <rect class="r3" x="1000" y="552" width="25" height="91"/>
+  <text x="1037.5" y="603.5" style="text-anchor:start; font-size:18px">3</text>
+  <rect class="r4" x="1000" y="461" width="25" height="91"/>
+  <text x="1037.5" y="512.5" style="text-anchor:start; font-size:18px">4</text>
+  <rect class="r5" x="1000" y="370" width="25" height="91"/>
+  <text x="1037.5" y="421.5" style="text-anchor:start; font-size:18px; font-weight:bold">5 max</text>
+
+</svg>
