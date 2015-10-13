@@ -92,6 +92,12 @@ topological_equivalent(
 }
 
 
+/**
+ * Create a quadrature rule based on the refinement of the given cell.
+ * The resulting quadrature rule should be exact for a finite element
+ * function living on the leaves of the cell (i.e. the active childs)
+ * if the base_quadrature is exact for the element on the reference cell.
+ */
   template <int dim>
 dealii::Quadrature<dim> collect_quadratures(
     typename dealii::Triangulation<dim>::cell_iterator cell,
