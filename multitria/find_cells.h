@@ -1,3 +1,6 @@
+#ifndef __multitria_find_cells_h
+#define __multitria_find_cells_h
+
 #include <deal.II/grid/tria.h>
 #include <deal.II/base/quadrature.h>
 #include <deal.II/base/geometry_info.h>
@@ -135,3 +138,5 @@ dealii::Quadrature<dim> collect_quadratures(
   }
   return dealii::Quadrature<dim>(q_points, q_weights);
 }
+
+#endif
