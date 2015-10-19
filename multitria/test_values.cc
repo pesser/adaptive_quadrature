@@ -129,7 +129,8 @@ class Cube : public Function<dim>
 
 double test_quadrature_values(const Function<2, double>& cf1,
                               const Function<2, double>& cf2,
-                              const unsigned int n_adaptive_cycles = 6)
+                              const unsigned int n_adaptive_cycles = 6,
+                              bool verbose = false)
 {
   const int dim = 2;
 
@@ -185,21 +186,24 @@ double test_quadrature_values(const Function<2, double>& cf1,
 
   unsigned int n_qpoints = qpoints.size();
   assert(qweights.size() == n_qpoints);
-  //deallog << "Collected quadrature size: " << n_qpoints << std::endl;
+  if(verbose) deallog << "Collected quadrature size: " << n_qpoints << std::endl;
   // quadrature weights should sum up to 1
   double sum = 0;
   for(unsigned int q = 0; q < n_qpoints; ++q)
   {
     sum += qweights[q];
-    const Point<dim>& q_point = qpoints[q];
-    for(unsigned int d = 0; d < dim; ++d)
+    if(verbose)
     {
-      //deallog << q_point(d) << " ";
+      const Point<dim>& q_point = qpoints[q];
+      for(unsigned int d = 0; d < dim; ++d)
+      {
+        deallog << q_point(d) << " ";
+      }
+      deallog << qweights[q];
+      deallog << std::endl;
     }
-    //deallog << qweights[q];
-    //deallog << std::endl;
   }
-  //deallog << "Collected quadrature weight: " << sum << std::endl;
+  if(verbose) deallog << "Collected quadrature weight: " << sum << std::endl;
 
   assert(fef1.values->size() == n_qpoints);
   assert(fef2.values->size() == n_qpoints);
@@ -298,12 +302,25 @@ void test1()
   }
 }
 
+void test2()
+{
+  // perturbation to avoid grid alignment
+  double delta = 0.01;
+  // geometry
+  double c = 0.6 + delta;
+  double r = 0.2;
+  Ball<2> ball(Point<2>(c, c), r);
+  Cube<2> cube(Point<2>(c-r, c-r), 2*r);
+
+  test_quadrature_values(ball, cube, 6, true);
+}
+
 int main()
 {
   std::ofstream logfile("deallog");
   deallog.attach(logfile);
 
-  test1();
+  test2();
 
   return 0;
 }

@@ -19,6 +19,14 @@ The generated quadrature rule
 Combined quadrature rule for Diagonal and Parabola interface (`test5()`)
 ![Diagonal and parabola quadrature](diagonal_and_parabola_quadrature.png)
 
+#### Cube and circle
+Grid for cube interface
+![Cube grid](cube.svg)
+Grid for circle interface
+![Circle grid](circle.svg)
+Combined quadrature rule for Cube and Circle interface (`test_values.cc`)
+![Cube and Circle quadrature](cube_and_circle.png)
+
 ### Running
 Make sure the environment variable `DEAL_II_DIR` contains the location of
 `deal.II`, then
