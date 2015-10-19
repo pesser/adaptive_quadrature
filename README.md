@@ -11,9 +11,13 @@ The generated quadrature rule
 
 #### Parabola
 The grid to resolve the parabola interface
-![Diagonal grid](parabola_grid.svg)
+![Parabola grid](parabola_grid.svg)
 The generated quadrature rule
-![Diagonal quadrature](parabola_quadrature.png)
+![Parabola quadrature](parabola_quadrature.png)
+
+#### Diagonal and Parabola
+Combined quadrature rule for Diagonal and Parabola interface (`test5()`)
+![Diagonal and parabola quadrature](diagonal_and_parabola_quadrature.png)
 
 ### Running
 Make sure the environment variable `DEAL_II_DIR` contains the location of

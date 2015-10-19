@@ -243,12 +243,17 @@ void test4()
   test_multi_interface_quadrature(diagonal, diagonal2);
 }
 
+void test5()
+{
+  test_multi_interface_quadrature(diagonal, parabola);
+}
+
 int main()
 {
   std::ofstream logfile("deallog");
   deallog.attach(logfile);
 
-  test4();
+  test5();
 
   return 0;
 }
