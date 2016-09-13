@@ -5,13 +5,13 @@ cell in another triangulation.
 ### Examples
 #### Diagonal
 The grid to resolve the diagonal interface
-![Diagonal grid](diagonal_grid.svg)
+![Diagonal grid](https://bytebucket.org/pesser/adaptive-quadrature/raw/c1838fbe4105834fc7c064bb9016d145cf38404b/diagonal_grid.svg)
 The generated quadrature rule
 ![Diagonal quadrature](diagonal_quadrature.png)
 
 #### Parabola
 The grid to resolve the parabola interface
-![Parabola grid](parabola_grid.svg)
+![Parabola grid](https://bytebucket.org/pesser/adaptive-quadrature/raw/c1838fbe4105834fc7c064bb9016d145cf38404b/parabola_grid.svg)
 The generated quadrature rule
 ![Parabola quadrature](parabola_quadrature.png)
 
@@ -21,9 +21,9 @@ Combined quadrature rule for Diagonal and Parabola interface (`test5()`)
 
 #### Cube and circle
 Grid for cube interface
-![Cube grid](cube.svg)
+![Cube grid](https://bytebucket.org/pesser/adaptive-quadrature/raw/c1838fbe4105834fc7c064bb9016d145cf38404b/cube.svg)
 Grid for circle interface
-![Circle grid](circle.svg)
+![Circle grid](https://bytebucket.org/pesser/adaptive-quadrature/raw/c1838fbe4105834fc7c064bb9016d145cf38404b/circle.svg)
 Combined quadrature rule for Cube and Circle interface (`test_values.cc`)
 ![Cube and Circle quadrature](cube_and_circle.png)
 
